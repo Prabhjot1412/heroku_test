@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: heroku_test_production
-  username: heroku_test
-  password: <%= ENV["HEROKU_TEST_DATABASE_PASSWORD"] %>
+  #username: heroku_test
+  #password: <%= ENV["HEROKU_TEST_DATABASE_PASSWORD"] %>
