@@ -81,4 +81,5 @@ test:
 #
 production:
   <<: *default
+  database: heroku-postgresql
   url: <%= ENV['DATABASE_URL'] %>
